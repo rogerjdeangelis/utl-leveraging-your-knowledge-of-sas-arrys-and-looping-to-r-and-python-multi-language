@@ -1,0 +1,18 @@
+{
+    "_captured_at": "2026-07-23T12:28:00Z",
+    "_captured_run_id": "r_d2c92cbcb307492386e5ef52b6755283",
+    "_captured_from": "https://api.jenneranalytics.com/v1/run",
+    "status": "ok",
+    "exit_code": 0,
+    "log_contains": [
+        "NOTE: Wrote master (3 rows, 3 columns).",
+        "NOTE: Wrote trans (4 rows, 1 columns).",
+        "NOTE: Wrote want (4 rows, 4 columns).",
+        "NOTE: PROC PRINT completed: 4 observations printed, 4 variables"
+    ],
+    "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+    "diagnostics": {
+        "parse_warnings": [],
+        "runtime_warnings": []
+    }
+}

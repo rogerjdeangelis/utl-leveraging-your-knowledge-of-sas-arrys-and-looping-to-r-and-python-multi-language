@@ -1,0 +1,7 @@
+{
+    "bundle": "t001_sas_sql_range_join",
+    "source_file": "utl-leveraging-your-knowledge-of-sas-arrys-and-looping-to-r-and-python-multi-language.sas",
+    "source_blob_sha": "fd6c29954ded97cd8f728b982bea2ade8654c99f",
+    "source_commit": "349bda81add9da1bda52d40a56d09fe42016ac9f",
+    "notes": "Solution 4 'sas sql': PROC SQL left join with a BETWEEN-style range predicate in the ON clause, labeling unmatched transaction dates 'nomatch'. PROC SQL kept verbatim; SD1.TRANS/SD1.MASTER built from the repo's own inline DATALINES in WORK instead of libname sd1 'd:/sd1'. Output matches the author's documented result (nomatch on 2024-08-04)."
+}
