@@ -1,0 +1,7 @@
+{
+    "bundle": "t002_sas_array_loop_range",
+    "source_file": "utl-leveraging-your-knowledge-of-sas-arrys-and-looping-to-r-and-python-multi-language.sas",
+    "source_blob_sha": "fd6c29954ded97cd8f728b982bea2ade8654c99f",
+    "source_commit": "349bda81add9da1bda52d40a56d09fe42016ac9f",
+    "notes": "Solution 1 'sas loop': nested DO loop matching each transaction date against every master range over 2-D in-memory arrays, OUTPUTting matched rows and a blank row for non-matches. The matching algorithm is the author's verbatim. Self-containment substitutions: SD1 inputs from the repo's inline DATALINES into WORK; the clipboard-based %utl_chrary(sd1.*) array loader replaced by an equivalent inline load into MASTER[3,3]/TRANS[4,1]; dim1(...) written as dim(...,1) (documented equivalents). Output matches the author's documented result."
+}
